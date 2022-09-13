@@ -46,6 +46,9 @@ class MainViewController: NSViewController, NativeViewControllerDelegate {
         // Depending on the order of initialization, the nativeViewController
         // might not be initialized until this point.
         weakSelf?.nativeViewController?.didReceiveIncrement()
+        if let count = weakSelf?.nativeViewController?.count {
+          weakSelf?.messageChannel?.sendMessage("\(count)")
+        }
         reply(MainViewController.emptyString)
       })
     }

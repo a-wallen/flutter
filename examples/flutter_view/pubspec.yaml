@@ -18,5 +18,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/flutter-mark-square-64.png
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
 
 # PUBSPEC CHECKSUM: dd61

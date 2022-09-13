@@ -48,9 +48,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<String> _handlePlatformIncrement(String? message) async {
-    setState(() {
-      _counter++;
-    });
+    if (message == 'ping') {
+      setState(() {
+        _counter++;
+      });
+    }
+
     return _emptyMessage;
   }
 
