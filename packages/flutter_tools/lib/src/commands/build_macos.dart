@@ -20,6 +20,7 @@ class BuildMacosCommand extends BuildSubCommand {
     required bool verboseHelp,
   }) : super(verboseHelp: verboseHelp) {
     addCommonDesktopBuildOptions(verboseHelp: verboseHelp);
+    usesFlavorOption();
   }
 
   @override
