@@ -109,7 +109,7 @@ Future<void> buildMacOS({
       'xcodebuild',
       '-workspace', xcodeWorkspace.path,
       '-configuration', configuration,
-      '-scheme', 'Runner',
+      '-scheme', scheme,
       '-derivedDataPath', flutterBuildDir.absolute.path,
       '-destination', 'platform=macOS',
       'OBJROOT=${globals.fs.path.join(flutterBuildDir.absolute.path, 'Build', 'Intermediates.noindex')}',
