@@ -23,11 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-<<<<<<< HEAD
       buildConfiguration = "Debug Paid"
-=======
-      buildConfiguration = "Debug Free"
->>>>>>> 3e99c85629 (Add new macos target configured for flavors)
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -35,11 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-<<<<<<< HEAD
       buildConfiguration = "Debug Paid"
-=======
-      buildConfiguration = "Debug Free"
->>>>>>> 3e99c85629 (Add new macos target configured for flavors)
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -60,11 +52,7 @@
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-<<<<<<< HEAD
       buildConfiguration = "Release Paid"
-=======
-      buildConfiguration = "Release Free"
->>>>>>> 3e99c85629 (Add new macos target configured for flavors)
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -81,17 +69,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-<<<<<<< HEAD
       buildConfiguration = "Debug Paid">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release Paid"
-=======
-      buildConfiguration = "Debug Free">
-   </AnalyzeAction>
-   <ArchiveAction
-      buildConfiguration = "Release Free"
->>>>>>> 3e99c85629 (Add new macos target configured for flavors)
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
